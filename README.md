@@ -15,16 +15,17 @@ Develop a simple web app to search music and create playlist, similar to Spotify
 
 ### Sign In/Sign up Page
 
-![SignIn](https://github.com/dineshveguru/intern_dendrite/assets/82778240/dbb95ce3-2ef6-4e62-a994-29fc2359b743)
+![SignIn](https://github.com/Karthika506/dentrite_assignment/assets/87574177/187d1f63-b82b-4518-88f1-ab0198670e2c)
 
 ### Home Page
 
-![Home](https://github.com/dineshveguru/intern_dendrite/assets/82778240/c75f5835-d83a-4973-a6f5-c91ed0024a2d)
+![Home](https://github.com/Karthika506/dentrite_assignment/assets/87574177/f61c2cc4-c293-4523-ac87-de0f6680c3ec)
 
 ### Favourites Page
 
-![Favourites](https://github.com/dineshveguru/intern_dendrite/assets/82778240/1730d095-3010-4e4b-a398-8b050cf407e9)
+![Favourites](https://github.com/Karthika506/dentrite_assignment/assets/87574177/7438ce0f-60f0-4db7-91d5-91a71abb471b)
 
 ### Search Page
 
-![Search](https://github.com/dineshveguru/intern_dendrite/assets/82778240/85351797-8416-4cd4-b044-8b9c8847d18d)
+![Search](https://github.com/Karthika506/dentrite_assignment/assets/87574177/04e49da2-a78b-45a9-bf54-33c5409049f9)
+
