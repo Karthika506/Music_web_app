@@ -15,7 +15,7 @@ interface Props {
 
 async function authenticate(token: string) {
   const spki =
-    "-----BEGIN PUBLIC KEY-----MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAj+bVnBBPaiS3GA8Qs6l1Gb2K6MAWiLu0U9dkyJcluYIYUypUNxV6drkbgibQ72R3yLzg4kadNeVUpbw3MnjOxWTBWtcoxoQEvhFwd+IOVxc8MzB7Jwvf2j8PmzAGC+sNTJJW/NnQb7NAkBs4jQieERBwLfy8kby4e2x175V7ZRfTNM05Jld44w1rdB/OLwtboaKew+6G36LvfFqL2JYzWaZ0Kquh3fAMhLc/aXHjzm33xIgfkaMmOs0tsNaaB7q7LsgLhN5KrciUnm2664uiNhkYINLHXdxr7tG/bwP2OjBNR7NNEUmLV1HiyscyhnhMv3yQa4+jLBsc/2zFkvfl5wIDAQAB-----END PUBLIC KEY-----";
+    "-----BEGIN PUBLIC KEY-----MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqzNDbWxYlsmb3dRTScx38nm/g84Wlswq2Ekqr59fPiV7oAAanBnyHGe72P9vdHzVvKwIY+9IZNnpKhEt+EPUClXMAG9pVQzHiJ8A7psXt+/ePeGILam3jTt5Q+vXUkP3vGAOG/AmFDowJzf/eF3E7kY9LQbqaiQ9Rfv6vVrPlJhNCcFQgIQrLDedeP7j3RBCvfKYZ9oN8DpzHFM/rlPVYshXRWtdVbNhayIiinHbcPrz5AcF56XaoQxQouaSmXqc/ZF2YV7TDYzkYPXpsRkeIsHfnoR7HJt3+crW3wiJ/sKsbH/SsH+6qV8hQtMkAfsuztddaBUdjPMnIXbV9Q68awIDAQAB-----END PUBLIC KEY-----";
   const alg = "RS256";
   const publicKey = await jose.importSPKI(spki, alg);
   const { payload, protectedHeader } = await jose.jwtVerify(token, publicKey);

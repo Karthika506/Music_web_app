@@ -9,7 +9,7 @@ interface KeycloakConfig {
 
 const keyCloakConfig: KeycloakConfig = {
   url: "http://localhost:8080",
-  realm: "myrealm",
+  realm: "Dentrite_assignment",
   clientId: "myclient",
 };
 
